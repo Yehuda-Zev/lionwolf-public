@@ -1,0 +1,26 @@
+{
+  "name": "lionwolf-public",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Yehuda-Zev/lionwolf-public#readme",
+  "bugs": {
+    "url": "https://github.com/Yehuda-Zev/lionwolf-public/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yehuda-Zev/lionwolf-public.git"
+  },
+  "license": "ISC",
+  "author": "Yehuda-Zev",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6",
+    "pug": "^3.0.4"
+  }
+}
