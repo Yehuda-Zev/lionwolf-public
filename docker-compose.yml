@@ -1,0 +1,9 @@
+services:
+  public:
+    build: .
+    container_name: lionwolf-public
+    restart: unless-stopped
+    ports:
+      # Only reachable from the server itself (cloudflared on the host),
+      # same as before: localhost:3000
+      - "127.0.0.1:3000:3000"
