@@ -1,2 +1,5 @@
 .env
 node_modules/
+
+# Idea Map is cloned here on the server from its own repo
+pages/ideamap/
