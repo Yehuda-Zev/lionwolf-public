@@ -5,9 +5,6 @@ const app = express();
 const PAGES = path.join(__dirname, 'pages');
 const IDEA_MAP = path.join(PAGES, 'products', 'idea-map', 'app');
 
-// Old Idea Map location -> new one
-app.use('/ideamap', (req, res) => res.redirect(301, '/products/idea-map/app/'));
-
 // Idea Map has no product page yet, so send visitors to the app
 app.get(['/products/idea-map', '/products/idea-map/'], (req, res) =>
   res.redirect(302, '/products/idea-map/app/'));
